@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "14.17.6"
+    "node": "20.x"
   },
   "dependencies": {
     "@formatjs/intl-pluralrules": "^3.5.6",

@@ -1,0 +1,61 @@
+a {
+    text-decoration: none;
+}
+
+.item_transaction {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .item_detail {
+        display: flex;
+        gap: 10px;
+        align-content: center;
+
+        img {
+            height: 80px;
+            width: 120px;
+        }
+
+        .info_transaction {
+            line-height: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .name {
+                color: #000;
+                font-weight: bold;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+                overflow: hidden;
+                line-clamp: 1;
+            }
+
+            .price {
+                color: #BB0000;
+            }
+
+            .priceDescription {
+                color: #000;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 1;
+                overflow: hidden;
+                line-clamp: 1;
+            }
+        }
+    }
+
+
+
+    button {
+        background-color: #BB0000;
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 12px;
+    }
+}

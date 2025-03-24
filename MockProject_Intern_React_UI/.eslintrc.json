@@ -1,0 +1,11 @@
+{
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      // Tắt một số quy tắc cụ thể nếu bạn muốn
+      "@babel/plugin-proposal-private-property-in-object": "off"
+    }
+  }
+  

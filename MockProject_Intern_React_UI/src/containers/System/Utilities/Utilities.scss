@@ -1,0 +1,37 @@
+.list_news {
+    &.main_content {
+        background-color: #eeeded;
+
+    }
+
+    .list_input {
+        width: 100%;
+        padding: 10px;
+
+        input,
+        select {
+            width: 400px;
+            height: 40px;
+            border-radius: 12px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+
+        button {
+            background-color: #BB0000;
+            border: none;
+            padding: 5px 15px;
+            border-radius: 12px;
+            color: white;
+            margin-top: 10px;
+        }
+
+        .result {
+            margin-top: 20px;
+            border-radius: 12px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+    }
+}

@@ -1,0 +1,139 @@
+.container_about {
+    width: 100%;
+    height: fit-content;
+
+    .background_about {
+        width: 100%;
+        height: 100vh;
+        background: url('https://res.cloudinary.com/dtjdfh2ly/image/upload/v1723555787/Chicago-Skyscrapers-The-Loop-Chicago__FocusFillMaxWyIwLjAwIiwiMC4wMCIsMTMwMCw2MDBd_ohqfrm.jpg') center/cover;
+
+        .text_about {
+            background-color: rgb(0, 0, 0, 0.6);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            color: white;
+            padding: 15%;
+            padding-top: 20%;
+            position: relative;
+
+
+
+            .introduce {
+                width: 100%;
+                position: relative;
+                display: flex;
+                gap: 20px;
+
+                .title_introduce {
+                    font-size: 40px;
+                    font-weight: bold;
+                    position: absolute;
+                    left: 50%;
+                    top: -60px;
+                    transform: translate(-50%, -50%);
+                }
+
+
+                .quotes_1,
+                .quotes_2 {
+                    font-size: 50px;
+                }
+
+                .quotes_1 {
+                    display: flex;
+                    align-items: flex-start;
+                }
+
+                .quotes_2 {
+                    display: flex;
+                    align-items: flex-end;
+                }
+            }
+        }
+    }
+
+    .contact {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .main_content {
+            height: fit-content;
+            width: 90%;
+            max-width: 1200px;
+            position: relative;
+            background-color: rgb(238, 237, 237);
+            border-radius: 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            gap: 30px;
+
+            .title_contact {
+                font-size: 40px;
+                font-weight: bold;
+                position: absolute;
+                left: 50%;
+                top: -40px;
+                transform: translate(-50%, -50%);
+                border-bottom: 1px solid #BB0000;
+                color: #BB0000;
+            }
+
+            .text {
+                text-align: center;
+                padding: 0 20%;
+                font-weight: bold;
+            }
+
+            .icon_map {
+               width: 100%;
+                display: flex;
+                justify-content: space-between;
+
+                .list_icon {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    justify-content: center;
+                    width: fit-content;
+                    height: fit-content;
+                    padding: 30px;
+
+                    .me-4 {
+                        width: 100px;
+                        padding: 15px 10px;
+                        border-radius: 34px 10px;
+                        background-color: white;
+                        border: 1px solid #BB0000;
+                        transition: ease-in-out 0.5s;
+
+                        i {
+                            font-size: 30px;
+                            color: #BB0000;
+                        }
+
+                        &:hover {
+                            transition: ease-in-out 0.5s;
+                            scale: 1.2;
+                        }
+                    }
+                }
+
+                .pin_map{
+                    height: auto;
+                    width: 100%;
+                    border: 1px solid black;
+                    border-radius: 24px;
+                }
+            }
+
+
+        }
+    }
+}
